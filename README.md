@@ -26,9 +26,8 @@ You also need to install the following Python libraries:
 - `nltk`
 - `time`
 
-You can install these dependencies using `pip`:
+You can install these dependencies using `pip`
 
-```bash
 pip install pandas numpy scikit-learn nltk
 Additionally, ensure you download the necessary NLTK resources for stopwords, punctuation, and lemmatization:
 
