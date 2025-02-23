@@ -26,18 +26,6 @@ You also need to install the following Python libraries:
 - `nltk`
 - `time`
 
-You can install these dependencies using `pip`
-
-pip install pandas numpy scikit-learn nltk
-Additionally, ensure you download the necessary NLTK resources for stopwords, punctuation, and lemmatization:
-
-python
-Kopyala
-Düzenle
-import nltk
-nltk.download('stopwords')  # Download the stopwords dataset
-nltk.download('punkt')      # Download the punkt tokenizer
-nltk.download('wordnet')    # Download the WordNet lemmatizer
 📂 File Structure
 
 ```
@@ -74,9 +62,7 @@ It trains a Logistic Regression model to classify the emails as spam or not spam
 4. Test the Model
 After training, you can test the model using the following code:
 
-python
-Kopyala
-Düzenle
+
 test_text = ["Hello Lonnie Just wanted to touch base regarding our project’s next steps. Please find the details below..."]
 prediction = model.predict(vectorizer.transform(test_text))
 print(f"Prediction: {prediction}")
