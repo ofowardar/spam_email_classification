@@ -39,9 +39,7 @@ nltk.download('stopwords')  # Download the stopwords dataset
 nltk.download('punkt')      # Download the punkt tokenizer
 nltk.download('wordnet')    # Download the WordNet lemmatizer
 📂 File Structure
-bash
-Kopyala
-Düzenle
+
 .
 ├── data/
 │   └── spam_dataset.csv        # Dataset containing email data
@@ -51,6 +49,7 @@ Düzenle
 │   ├── model.py                # Builds, trains, and evaluates the model
 ├── main.py                     # Main script that ties everything together
 └── README.md                   # Project documentation
+
 🏗️ How to Use
 1. Load the Data
 The dataset (spam_dataset.csv) is loaded using the load_data function in the scripts/load_data.py file.
@@ -63,6 +62,7 @@ Removing punctuation
 Normalizing text (lowercasing)
 Removing numerical values
 Lemmatizing words
+
 3. Train the Model
 The modelling function in scripts/model.py handles the training process:
 
