@@ -47,12 +47,6 @@ The dataset (spam_dataset.csv) is loaded using the load_data function in the scr
 2. Preprocess the Data
 Before training the model, the email text data needs to be preprocessed. The preprocessText function in scripts/preprocessing.py is responsible for:
 
-Removing stop words
-Removing punctuation
-Normalizing text (lowercasing)
-Removing numerical values
-Lemmatizing words
-
 3. Train the Model
 The modelling function in scripts/model.py handles the training process:
 
