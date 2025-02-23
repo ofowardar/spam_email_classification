@@ -40,7 +40,7 @@ nltk.download('punkt')      # Download the punkt tokenizer
 nltk.download('wordnet')    # Download the WordNet lemmatizer
 📂 File Structure
 
-"""
+```
 .
 ├── data/
 │   └── spam_dataset.csv        # Dataset containing email data
@@ -50,7 +50,7 @@ nltk.download('wordnet')    # Download the WordNet lemmatizer
 │   ├── model.py                # Builds, trains, and evaluates the model
 ├── main.py                     # Main script that ties everything together
 └── README.md                   # Project documentation
-"""
+```
 
 🏗️ How to Use
 1. Load the Data
